@@ -1,0 +1,352 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.DataAcquisition\\Adapters.DataAcquisition.csproj": {}
+  },
+  "projects": {
+    "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.DataAcquisition\\Adapters.DataAcquisition.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.DataAcquisition\\Adapters.DataAcquisition.csproj",
+        "projectName": "Dywham.Breeze.Fabric.Adapters.DataAcquisition",
+        "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.DataAcquisition\\Adapters.DataAcquisition.csproj",
+        "packagesPath": "C:\\Users\\Me\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.DataAcquisition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Development\\Exercises\\Breeze\\Fabric\\NuGet.Config",
+          "C:\\Users\\Me\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Development\\Exercises\\Breeze\\NugetStore": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO.Compression\\Adapters.IO.Compression.csproj": {
+                "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO.Compression\\Adapters.IO.Compression.csproj"
+              },
+              "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO\\Adapters.IO.csproj": {
+                "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO\\Adapters.IO.csproj"
+              },
+              "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\Adapters.csproj": {
+                "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\Adapters.csproj"
+              },
+              "C:\\Development\\Exercises\\Breeze\\Fabric\\Utils.Bcl\\Utils.Bcl.csproj": {
+                "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Utils.Bcl\\Utils.Bcl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "MathNet.Symbolics": {
+              "target": "Package",
+              "version": "[0.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO.Compression\\Adapters.IO.Compression.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO.Compression\\Adapters.IO.Compression.csproj",
+        "projectName": "Dywham.Breeze.Fabric.Adapters.IO.Compression",
+        "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO.Compression\\Adapters.IO.Compression.csproj",
+        "packagesPath": "C:\\Users\\Me\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO.Compression\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Development\\Exercises\\Breeze\\Fabric\\NuGet.Config",
+          "C:\\Users\\Me\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Development\\Exercises\\Breeze\\NugetStore": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO\\Adapters.IO.csproj": {
+                "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO\\Adapters.IO.csproj"
+              },
+              "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\Adapters.csproj": {
+                "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\Adapters.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO\\Adapters.IO.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO\\Adapters.IO.csproj",
+        "projectName": "Dywham.Breeze.Fabric.Adapters.IO",
+        "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO\\Adapters.IO.csproj",
+        "packagesPath": "C:\\Users\\Me\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters.IO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Development\\Exercises\\Breeze\\Fabric\\NuGet.Config",
+          "C:\\Users\\Me\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Development\\Exercises\\Breeze\\NugetStore": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\Adapters.csproj": {
+                "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\Adapters.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\Adapters.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\Adapters.csproj",
+        "projectName": "Dywham.Breeze.Fabric.Adapters",
+        "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\Adapters.csproj",
+        "packagesPath": "C:\\Users\\Me\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Adapters\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Development\\Exercises\\Breeze\\Fabric\\NuGet.Config",
+          "C:\\Users\\Me\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Development\\Exercises\\Breeze\\NugetStore": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\Exercises\\Breeze\\Fabric\\Utils.Bcl\\Utils.Bcl.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Exercises\\Breeze\\Fabric\\Utils.Bcl\\Utils.Bcl.csproj",
+        "projectName": "Dywham.Breeze.Fabric.Utils.Bcl",
+        "projectPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Utils.Bcl\\Utils.Bcl.csproj",
+        "packagesPath": "C:\\Users\\Me\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Exercises\\Breeze\\Fabric\\Utils.Bcl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Development\\Exercises\\Breeze\\Fabric\\NuGet.Config",
+          "C:\\Users\\Me\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Development\\Exercises\\Breeze\\NugetStore": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

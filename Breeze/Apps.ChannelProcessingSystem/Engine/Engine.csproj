@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Resources\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Dywham.Breeze.Fabric.Adapters" Version="1.0.1" />
+	  <PackageReference Include="Dywham.Breeze.Fabric.Adapters.DataAcquisition" Version="1.0.1" />
+	  <PackageReference Include="Dywham.Breeze.Fabric.Adapters.IO" Version="1.0.1" />
+	  <PackageReference Include="Dywham.Breeze.Fabric.Adapters.IO.Compression" Version="1.0.1" />
+	  <PackageReference Include="Dywham.Breeze.Fabric.Adapters.Maths" Version="1.0.1" />
+	  <PackageReference Include="Dywham.Breeze.Fabric.Adapters.Regex" Version="1.0.1" />
+	  <PackageReference Include="Dywham.Breeze.Fabric.Adapters.Serialization.Json" Version="1.0.1" />
+	  <PackageReference Include="Dywham.Breeze.Fabric.Persistence.Repositories" Version="1.0.1" />
+	  <PackageReference Include="Dywham.Breeze.Fabric.Utils.Bcl" Version="1.0.1" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="EndpointSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

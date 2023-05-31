@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="7.0.1" />
+		<PackageReference Include="MathNet.Symbolics" Version="0.24.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Adapters.IO.Compression\Adapters.IO.Compression.csproj" />
+	  <ProjectReference Include="..\Adapters.IO\Adapters.IO.csproj" />
+	  <ProjectReference Include="..\Adapters\Adapters.csproj" />
+	  <ProjectReference Include="..\Utils.Bcl\Utils.Bcl.csproj" />
+	</ItemGroup>
+
+</Project>

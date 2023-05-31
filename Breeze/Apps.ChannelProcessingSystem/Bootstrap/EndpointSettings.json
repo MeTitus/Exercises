@@ -1,0 +1,7 @@
+{
+    "CalculationsSampleTarget": 100,
+    "FunctionsRepositorySourceFile": "Resources\\functions.txt",
+    "UnprocessedTelemetryFilesLocation": "Resources\\Unprocessed",
+    "ProcessedTelemetryFilesLocation": "Resources\\Processed",
+    "CalculationResultMaxDecimals" : 12
+}

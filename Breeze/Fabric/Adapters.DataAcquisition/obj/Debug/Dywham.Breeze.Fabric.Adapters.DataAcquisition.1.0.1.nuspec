@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Dywham.Breeze.Fabric.Adapters.DataAcquisition</id>
+    <version>1.0.1</version>
+    <authors>Dywham.Breeze.Fabric.Adapters.DataAcquisition</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Dywham.Breeze.Fabric.Adapters.IO.Compression" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Dywham.Breeze.Fabric.Adapters.IO" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Dywham.Breeze.Fabric.Adapters" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Dywham.Breeze.Fabric.Utils.Bcl" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Autofac" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="MathNet.Symbolics" version="0.24.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Development\Exercises\Breeze\Fabric\Adapters.DataAcquisition\bin\Debug\net7.0\Dywham.Breeze.Fabric.Adapters.DataAcquisition.dll" target="lib\net7.0\Dywham.Breeze.Fabric.Adapters.DataAcquisition.dll" />
+  </files>
+</package>

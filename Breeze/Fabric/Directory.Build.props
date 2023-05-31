@@ -1,0 +1,18 @@
+<Project>
+
+	<PropertyGroup>
+		<Company>Dywham</Company>
+		<Product>Fabric</Product>
+		<Company>Dywham</Company>
+		<LangVersion>Latest</LangVersion>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<TargetFramework>net7.0</TargetFramework>
+		<VersionPrefix>1.0.1</VersionPrefix>
+		<NeutralLanguage>en</NeutralLanguage>
+		<AssemblyName>Dywham.Breeze.Fabric.$(MSBuildProjectName)</AssemblyName>
+		<RootNamespace>Dywham.Breeze.Fabric.$(MSBuildProjectName)</RootNamespace>
+	</PropertyGroup>
+
+</Project>

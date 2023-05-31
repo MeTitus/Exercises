@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Adapters.IO\Adapters.IO.csproj" />
+		<ProjectReference Include="..\Adapters\Adapters.csproj" />
+	</ItemGroup>
+
+</Project>

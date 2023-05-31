@@ -1,0 +1,4 @@
+Y, m*X+c, Function 1, {}
+B, A+Y, Function 2, { "Mean": "b" }
+A, 1/X, Function 3, {}
+C, X+b, Function 4, {}
